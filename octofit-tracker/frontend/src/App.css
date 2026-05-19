@@ -1,0 +1,79 @@
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #c9e7fa 100%);
+  color: #222b45;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.navbar .nav-link.active, .navbar .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #007bff;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #00b8d9;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #007bff;
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  margin: 1rem auto;
+}
+th {
+  background: #007bff;
+  color: #fff;
+}
+td {
+  color: #222b45;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 24px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  margin: 1rem auto;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Add more custom styles as needed */
